@@ -1012,7 +1012,16 @@ addFigure("Benedict XVI","Pope","pope.png",2005,2013);
           currentYearLabel.textContent = `Year: ${formatYear(year)}`;
       
           // Update map image based on year
-          if (year < 40) {
+          if (year < -5800){
+            mapImage.src = 'images/doggerlandmap.jpg';
+          }
+          else if (year < -325){
+            mapImage.src = 'images/blankbritainmap.jpg';
+          }
+          else if (year < -56){
+            mapImage.src = 'images/ptolemymap.webp';
+          }
+          else if (year < 40) {
             mapImage.src = 'images/preroman.gif';
           } else {
             mapImage.src = `images/maps/${year}.jpg`;
