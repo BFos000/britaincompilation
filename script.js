@@ -678,7 +678,7 @@ addFigure("Hywel","King of Gwynedd","welsh.png",816,825);
 addFigure("Merfyn","King of Gwynedd","welsh.png",825,844);
 addFigure("Rhodri Mawr","King of Gwynedd","rhodrimawr.png",844,878);
 
-
+/*
 addFigure("St. Peter","Bishop of Rome","peter.jpg",32,67);
 addFigure("St. Linus","Bishop of Rome","linus.jpg",67,76);
 addFigure("St. Anacletus","Bishop of Rome","anacletus.jpg",76,88);
@@ -713,6 +713,7 @@ addFigure("St. Eusebius","Bishop of Rome","pope.png",310,310);
 addFigure("St. Miltiades","Bishop of Rome","pope.png",311,314);
 addFigure("St. Sylvester I","Bishop of Rome","pope.png",314,335);
 addFigure("St. Marcus","Bishop of Rome","pope.png",336,336);
+*/
 addFigure("St. Julius I","Bishop of Rome","pope.png",337,352);
 addFigure("Liberius","Bishop of Rome","pope.png",352,366);
 addFigure("St. Damasus I","Bishop of Rome","pope.png",366,384);
