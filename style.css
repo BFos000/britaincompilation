@@ -1,0 +1,124 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: black;
+    color: white;
+  }
+  
+  .container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .left-panel {
+    width: 30%; /* Ensure left panel takes exactly 30% of the screen width */
+    padding: 10px;
+    position: fixed; /* Fixes the left panel in place */
+    top: 0;
+    left: 0;
+    height: 100vh;
+    background-color: #1a1a1a;
+    box-shadow: 2px 0 5px rgba(255,255,255,0.1); /* Slight shadow for separation */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 10; /* Ensures left panel stays above the right panel */
+  }
+  
+  .right-panel {
+    margin-left: 32%; /* Increased margin to ensure enough space for the fixed left panel and padding */
+    margin-right: 30%; /* Increased margin to ensure enough space for the fixed left panel and padding */
+    width: 68%; /* Adjusted width to prevent overflow */
+    padding: 10px;
+    overflow-y: scroll;
+    height: 100vh;
+  white-space: pre-wrap; /* Preserve line breaks and spaces */
+  }
+
+
+.map-panel {
+    width: 30%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    background-color: #1a1a1a;
+    box-shadow: -2px 0 5px rgba(255, 255, 255, 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  #map-image {
+    max-width: 90%; /* Ensure map fits within the panel */
+    max-height: 90%;
+    object-fit: contain;
+  }
+  
+  #current-year {
+    font-size: 2em;
+    color: yellow;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  #image-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal-sized columns */
+    grid-template-rows: repeat(4, auto); /* 4 rows */
+    gap: 10px; /* Space between images */
+    justify-items: center; /* Center items horizontally in the grid */
+  }
+  
+  .figure-container {
+    position: relative; /* Allows positioning of the red X within the figure */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #image-container img {
+    width: 100px; /* Standard width */
+    height: 100px; /* Standard height */
+    object-fit: cover; /* Ensures images fill the frame without distortion */
+    object-position: top; /* Aligns the image to the top */
+    border-radius: 50%; /* Makes the image round */
+    border: 3px solid gold; /* Gold border for the circular frame */
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .red-x {
+    position: absolute;
+    top: 5px; /* Positioned slightly above the bottom */
+    right: 5px; /* Positioned slightly to the left of the right edge */
+    width: 30px;
+    height: 30px;
+    color: red;
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    pointer-events: none; /* So that the red X doesn't interfere with hover or click events */
+  }
+  
+  .figure-name {
+    font-size: 1em;
+    max-width: 100px;
+    white-space: normal;
+    text-align: center;
+    color: white;
+  }
+  
+  .figure-title {
+    font-size: 0.8em;
+    max-width: 100px;
+    white-space: normal;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: yellow;
+    text-align: center;
+  }
+  
+  
