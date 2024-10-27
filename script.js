@@ -899,7 +899,8 @@ addFigure("Julius II","Pope","pope.png",1503,1513);
 addFigure("Leo X","Pope","pope.png",1513,1521);
 addFigure("Adrian VI","Pope","pope.png",1522,1523);
 addFigure("Clement VII","Pope","pope.png",1523,1534);
-addFigure("Paul III","Pope","pope.png",1534,1549);
+addFigure("Paul III","Pope","pope.png",1534,1536);//1549);
+/*
 addFigure("Julius III","Pope","pope.png",1550,1555);
 addFigure("Marcellus II","Pope","pope.png",1555,1555);
 addFigure("Paul IV","Pope","pope.png",1555,1559);
@@ -944,7 +945,22 @@ addFigure("St. John XXIII","Pope","pope.png",1958,1963);
 addFigure("St. Paul VI","Pope","pope.png",1963,1978);
 addFigure("John Paul I","Pope","pope.png",1978,1978);
 addFigure("St. John Paul II","Pope","pope.png",1978,2005);
-addFigure("Benedict XVI","Pope","pope.png",2005,2013);
+addFigure("Benedict XVI","Pope","pope.png",2005,2013);*/
+
+
+addFigure("Anne","Queen of Great Britain","anne.jpg",1707,1714);
+addFigure("George I","King of Great Britain","georgei.jpg",1714,1727);
+addFigure("George II","King of Great Britain","georgeii.jpg",1727,1760);
+addFigure("George III","King of Great Britain","georgeiii.jpg",1760,1820);
+addFigure("George IV","King of Great Britain","georgeiv.jpg",1820,1830);
+addFigure("William IV","King of Great Britain","williamiv.jpg",1830,1837);
+addFigure("Victoria","Queen of Great Britain","victoria.png",1837,1901);
+addFigure("Edward VII","King of Great Britain","edwardvii.jpg",1901,1910);
+addFigure("George V","King of Great Britain","georgev.jpg",1910,1936);
+addFigure("Edward VIII","King of Great Britain","edwardviii.jpg",1936,1936);
+addFigure("George VI","King of Great Britain","georgevi.png",1936,1952);
+addFigure("Elizabeth II","Queen of Great Britain","elizabethii.jpg",1952,2022);
+addFigure("Charles III","King of Great Britain","charlesiii.jpg",2022,2050);
 
     // Function to find the closest year at the top of the viewport
     function getCurrentYear() {
