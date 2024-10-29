@@ -13,18 +13,18 @@ body, html {
   }
   
   .left-panel {
-    width: 28%; /* Ensure left panel takes exactly 30% of the screen width */
+    width: 28%;
     padding: 10px;
-    position: fixed; /* Fixes the left panel in place */
+    position: fixed;
     top: 0;
     left: 0;
     height: 100vh;
     background-color: #1a1a1a;
-    box-shadow: 2px 0 5px rgba(255,255,255,0.1); /* Slight shadow for separation */
+    box-shadow: 2px 0 5px rgba(255, 255, 255, 0.1);
     display: flex;
     flex-direction: column;
     align-items: center;
-    z-index: 10; /* Ensures left panel stays above the right panel */
+    overflow-y: auto; /* Enable vertical scrolling */
   }
   
   .right-panel {
@@ -65,10 +65,12 @@ body, html {
   }
   #image-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 equal-sized columns */
-    grid-template-rows: repeat(4, auto); /* 4 rows */
-    gap: 10px; /* Space between images */
-    justify-items: center; /* Center items horizontally in the grid */
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr)); /* Responsive grid */
+    gap: 10px;
+    width: 100%; /* Fill the width of the left panel */
+    justify-items: center;
+    padding: 5px;
+    box-sizing: border-box;
   }
   
   .figure-container {
@@ -91,8 +93,8 @@ body, html {
   
   .red-x {
     position: absolute;
-    top: 5px; /* Positioned slightly above the bottom */
-    right: 5px; /* Positioned slightly to the left of the right edge */
+    top: 5px;
+    right: 5px;
     width: 30px;
     height: 30px;
     color: red;
@@ -101,7 +103,32 @@ body, html {
     line-height: 30px;
     text-align: center;
     pointer-events: none; /* So that the red X doesn't interfere with hover or click events */
-  }
+    text-shadow: 
+    -1px -1px 0 black,  /* Outline to the top-left */
+    1px -1px 0 black,   /* Outline to the top-right */
+    -1px 1px 0 black,   /* Outline to the bottom-left */
+    1px 1px 0 black;    /* Outline to the bottom-right */ 
+}
+  
+  .green-exclamation {
+    position: absolute;
+    top: 5px;
+    right: 5px; /* Positioned in the top-left corner */
+    width: 30px;
+    height: 30px;
+    color: green;  /* yellow instead of green hehe */
+    font-size: 54px;
+    font-weight: bold;
+    line-height: 30px;
+    text-align: center;
+    pointer-events: none; /* So that the green exclamation mark doesn't interfere with events */
+    text-shadow: 
+    -1px -1px 0 black,  /* Outline to the top-left */
+    1px -1px 0 black,   /* Outline to the top-right */
+    -1px 1px 0 black,   /* Outline to the bottom-left */
+    1px 1px 0 black;    /* Outline to the bottom-right */  
+}
+  
   
   .figure-name {
     font-size: 1em;

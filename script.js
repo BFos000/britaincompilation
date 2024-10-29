@@ -17,7 +17,8 @@ document.addEventListener("DOMContentLoaded", () => {
             image: imageFile,
             name: name,
             title: title,
-            endDate: endDate // Store the end date for each figure
+            endDate: endDate, // Store the end date for each figure
+            startDate: startDate
           });
         }
       }
@@ -81,8 +82,8 @@ addFigure("Aethelwulf","King of Wessex","aethelwulf.jpg",839,858);
 addFigure("Aethelbald","King of Wessex","aethelbald2.jpg",858,860);
 addFigure("Aethelberht","King of Wessex","aethelberht.jpg",860,865);
 addFigure("Aethelred I","King of Wessex","aethelredi4.jpg",865,871);
-addFigure("Alfred the Great","King of Wessex","alfredthegreat.jpg",871,886);
-addFigure("Alfred the Great","King of the Angles and Saxons","alfredthegreat.jpg",886,899);
+addFigure("Alfred","King of Wessex","alfredthegreat.jpg",871,886);
+addFigure("Alfred","King of the Angles and Saxons","alfredthegreat.jpg",886,899);
 addFigure("Edward the Elder","King of the Angles and Saxons","edwardtheelder.jpg",899,924);
 addFigure("Aelfweard","King of the Angles and Saxons","king2.png",924,924);
 addFigure("Aethelstan","King of the English","aethelstan.jpg",924,939);
@@ -95,7 +96,7 @@ addFigure("Aethelred the Unready","King of the English","aethelredtheunready.jpg
 addFigure("Sweyn Forkbeard","King of the English","sweynforkbeard.jpg",1013,1014);
 addFigure("Aethelred the Unready","King of the English","aethelredtheunready.jpg",1014,1016);
 addFigure("Edmund Ironside","King of the English","edmundironside.jpg",1016,1016);
-addFigure("Cnut the Great","King of the English","cnutthegreat.jpg",1016,1035);
+addFigure("Cnut","King of the English","cnutthegreat.jpg",1016,1035);
 addFigure("Harold Harefoot","King of the English","haroldharefoot.jpg",1035,1040);
 addFigure("Harthacnut","King of the English","harthacnut.jpg",1040,1042);
 addFigure("Edward the Confessor","King of the English","edwardtheconfessor.jpg",1042,1066);
@@ -380,7 +381,7 @@ addFigure("Baldwin of Forde","Archbishop of Canterbury","baldwinofforde.jpg",118
 addFigure("Hubert Walter","Archbishop of Canterbury","hubertwalter.jpg",1193,1205);
 addFigure("Stephen Langton","Archbishop of Canterbury","stephenlangton.jpg",1207,1228);
 addFigure("Richard le Grant","Archbishop of Canterbury","bishop.png",1229,1231);
-addFigure("Edmund of Abingdon","Archbishop of Canterbury","edmundofabingdon.ong",1234,1240);
+addFigure("Edmund of Abingdon","Archbishop of Canterbury","edmundofabingdon.png",1234,1240);
 addFigure("Robert Kilwardby","Archbishop of Canterbury","robertkilwardby.jpg",1273,1278);
 addFigure("John Peckham","Archbishop of Canterbury","johnpeckham.jpg",1279,1292);
 addFigure("Robert Winchelsey","Archbishop of Canterbury","bishop.png",1294,1313);
@@ -678,6 +679,33 @@ addFigure("Hywel","King of Gwynedd","welsh.png",816,825);
 addFigure("Merfyn","King of Gwynedd","welsh.png",825,844);
 addFigure("Rhodri Mawr","King of Gwynedd","rhodrimawr.png",844,878);
 
+
+
+addFigure("Ecgberht I","King of Northumbria","king2.png",867,872);
+addFigure("Ricsige","King of Northumbria","king2.png",872,875);
+addFigure("Ecgberht II","King of Northumbria","king2.png",875,883);
+addFigure("Halfdan Ragnarsson","King of Jorvik","halfdanragnarsson.jpg",875,877);
+addFigure("Guthred","King of Jorvik","viking.png",883,895);
+addFigure("Siefried","King of Jorvik","siefried.jpg",895,900);
+addFigure("Cnut","King of Jorvik","cnutnorthumbria.jpg",900,905);
+addFigure("Eadwulf II","King of Northumbria","king2.png",895,913);
+addFigure("Halfdan","King of Jorvik","viking.png",902,910);
+addFigure("Eowils","King of Jorvik","viking.png",902,910);
+addFigure("Ealdred I","King of Northumbria","king2.png",913,933);
+addFigure("Adulf mcEtulfe","King of Northumbria","king2.png",933,934);
+addFigure("Osulf I","King of Northumbria","king2.png",947,954);
+addFigure("Raegnald","King of Jorvik","viking.png",918,921);
+addFigure("Sigtrygg","King of Jorvik","viking.png",921,927);
+addFigure("Guthfrith","King of Jorvik","viking.png",927,927);
+addFigure("Olaf Guthfrithson","King of Jorvik","viking.png",939,941);
+addFigure("Olaf Sihtricson","King of Jorvik","olafsihtricsson.png",941,944);
+addFigure("Sitric II","King of Jorvik","viking.png",942,942);
+addFigure("Ragnall Guthfrithson","King of Jorvik","ragnallguthfrithson.jpg",943,944);
+addFigure("Eric Bloodaxe","King of Jorvik","ericbloodaxe.jpg",947,948);
+addFigure("Olaf Sihtricson","King of Jorvik","olafsihtricsson.png",949,952);
+addFigure("Eric Bloodaxe","King of Jorvik","ericbloodaxe.jpg",952,954);
+
+
 /*
 addFigure("St. Peter","Bishop of Rome","peter.jpg",32,67);
 addFigure("St. Linus","Bishop of Rome","linus.jpg",67,76);
@@ -714,26 +742,26 @@ addFigure("St. Miltiades","Bishop of Rome","pope.png",311,314);
 addFigure("St. Sylvester I","Bishop of Rome","pope.png",314,335);
 addFigure("St. Marcus","Bishop of Rome","pope.png",336,336);
 */
-addFigure("St. Julius I","Bishop of Rome","pope.png",337,352);
-addFigure("Liberius","Bishop of Rome","pope.png",352,366);
-addFigure("St. Damasus I","Bishop of Rome","pope.png",366,384);
-addFigure("St. Siricius","Bishop of Rome","pope.png",384,399);
-addFigure("St. Anastasius I","Bishop of Rome","pope.png",399,401);
-addFigure("St. Innocent I","Bishop of Rome","pope.png",401,417);
+addFigure("St. Julius I","Bishop of Rome","juliusi.jpg",337,352);
+addFigure("Liberius","Bishop of Rome","liberius.png",352,366);
+addFigure("St. Damasus I","Bishop of Rome","damasusi.png",366,384);
+addFigure("St. Siricius","Bishop of Rome","siricius.jpg",384,399);
+addFigure("St. Anastasius I","Bishop of Rome","anastasiusi.jpg",399,401);
+addFigure("St. Innocent I","Bishop of Rome","innocenti.jpg",401,417);
 addFigure("St. Zosimus","Bishop of Rome","pope.png",417,418);
-addFigure("St. Boniface I","Bishop of Rome","pope.png",418,422);
+addFigure("St. Boniface I","Bishop of Rome","bonifacei.jpg",418,422);
 addFigure("St. Celestine I","Bishop of Rome","pope.png",422,432);
 addFigure("St. Sixtus III","Bishop of Rome","pope.png",432,440);
-addFigure("St. Leo I","Pope","pope.png",440,461);
-addFigure("St. Hilarius","Pope","pope.png",461,468);
-addFigure("St. Simplicius","Pope","pope.png",468,483);
+addFigure("St. Leo I","Pope","leoi.jpg",440,461);
+addFigure("St. Hilarius","Pope","hilarius.jpg",461,468);
+addFigure("St. Simplicius","Pope","simplicius.png",468,483);
 addFigure("St. Felix III","Pope","pope.png",483,492);
 addFigure("St. Gelasius I","Pope","pope.png",492,496);
 addFigure("Anastasius II","Pope","pope.png",496,498);
-addFigure("St. Symmachus","Pope","pope.png",498,514);
+addFigure("St. Symmachus","Pope","symmachus.png",498,514);
 addFigure("St. Hormisdas","Pope","pope.png",514,523);
 addFigure("St. John I","Pope","pope.png",523,526);
-addFigure("St. Felix IV","Pope","pope.png",526,530);
+addFigure("St. Felix IV","Pope","felixiv.png",526,530);
 addFigure("Boniface II","Pope","pope.png",530,532);
 addFigure("John II","Pope","pope.png",533,535);
 addFigure("St. Agapetus I","Pope","pope.png",535,536);
@@ -749,57 +777,57 @@ addFigure("Boniface III","Pope","pope.png",607,607);
 addFigure("St. Boniface IV","Pope","pope.png",608,615);
 addFigure("St. Deusdedit","Pope","pope.png",615,618);
 addFigure("Boniface V","Pope","pope.png",619,625);
-addFigure("Honorius I","Pope","popehonorius.jpg",625,638);
+addFigure("Honorius I","Pope","honoriusi.jpg",625,638);
 addFigure("Severinus","Pope","pope.png",640,640);
-addFigure("John IV","Pope","popejohniv.png",640,642);
+addFigure("John IV","Pope","johniv.png",640,642);
 addFigure("Theodore I","Pope","pope.png",642,649);
-addFigure("St. Martin I","Pope","popemartini.jpg",649,655);
+addFigure("St. Martin I","Pope","martini.jpg",649,655);
 addFigure("St. Eugene I","Pope","pope.png",655,657);
 addFigure("St. Vitalian","Pope","pope.png",657,672);
 addFigure("Adeodatus","Pope","pope.png",672,676);
 addFigure("Donus","Pope","pope.png",676,678);
-addFigure("St. Agatho","Pope","popeagatho.jpg",678,681);
+addFigure("St. Agatho","Pope","agatho.jpg",678,681);
 addFigure("St. Leo II","Pope","pope.png",682,683);
 addFigure("St. Benedict II","Pope","pope.png",684,685);
 addFigure("John V","Pope","pope.png",685,686);
 addFigure("Conon","Pope","pope.png",686,687);
 addFigure("St. Sergius I","Pope","pope.png",687,701);
 addFigure("John VI","Pope","pope.png",701,705);
-addFigure("John VII","Pope","popejohnvii.jpg",705,707);
+addFigure("John VII","Pope","johnvii.jpg",705,707);
 addFigure("Sisinnius","Pope","pope.png",708,708);
 addFigure("Constantine","Pope","pope.png",708,715);
 addFigure("St. Gregory II","Pope","pope.png",715,731);
-addFigure("St. Gregory III","Pope","popegregoryiii.png",731,741);
-addFigure("St. Zachary","Pope","popezachary.jpg",741,752);
+addFigure("St. Gregory III","Pope","gregoryiii.png",731,741);
+addFigure("St. Zachary","Pope","zachary.jpg",741,752);
 addFigure("Stephen II","Pope","pope.png",752,757);
 addFigure("St. Paul I","Pope","pope.png",757,767);
 addFigure("Stephen III","Pope","pope.png",767,772);
 addFigure("Adrian I","Pope","pope.png",772,795);
-addFigure("St. Leo III","Pope","popeleoiii.jpg",795,816);
+addFigure("St. Leo III","Pope","leoiii.jpg",795,816);
 addFigure("Stephen IV","Pope","pope.png",816,817);
-addFigure("St. Paschal I","Pope","popepaschali.gif",817,824);
+addFigure("St. Paschal I","Pope","paschali.gif",817,824);
 addFigure("Eugene II","Pope","pope.png",824,827);
 addFigure("Valentine","Pope","pope.png",827,827);
-addFigure("Gregory IV","Pope","popegregoryiv.jpg",827,844);
+addFigure("Gregory IV","Pope","gregoryiv.jpg",827,844);
 addFigure("Sergius II","Pope","pope.png",844,847);
-addFigure("St. Leo IV","Pope","popeleoiv.jpg",847,855);
+addFigure("St. Leo IV","Pope","leoiv.jpg",847,855);
 addFigure("Benedict III","Pope","pope.png",855,858);
 addFigure("St. Nicholas I","Pope","pope.png",858,867);
 addFigure("Adrian II","Pope","pope.png",867,872);
-addFigure("John VIII","Pope","popejohnviii.jpg",872,882);
+addFigure("John VIII","Pope","johnviii.jpg",872,882);
 addFigure("Marinus I","Pope","pope.png",882,884);
 addFigure("St. Adrian III","Pope","pope.png",884,885);
 addFigure("Stephen V","Pope","pope.png",885,891);
-addFigure("Formosus","Pope","pope.png",891,896);
+addFigure("Formosus","Pope","formosus.png",891,896);
 addFigure("Boniface VI","Pope","pope.png",896,896);
-addFigure("Stephen VI","Pope","pope.png",896,897);
-addFigure("Romanus","Pope","pope.png",897,897);
+addFigure("Stephen VI","Pope","stephenvi.png",896,897);
+addFigure("Romanus","Pope","romanus.jpg",897,897);
 addFigure("Theodore II","Pope","pope.png",897,897);
 addFigure("John IX","Pope","pope.png",898,900);
 addFigure("Benedict IV","Pope","pope.png",900,903);
 addFigure("Leo V","Pope","pope.png",903,904);
 addFigure("Sergius III","Pope","pope.png",904,911);
-addFigure("Anastasius III","Pope","pope.png",911,913);
+addFigure("Anastasius III","Pope","anastasiusiii.jpg",911,913);
 addFigure("Lando","Pope","pope.png",913,914);
 addFigure("John X","Pope","pope.png",914,928);
 addFigure("Leo VI","Pope","pope.png",928,928);
@@ -808,71 +836,73 @@ addFigure("John XI","Pope","pope.png",931,935);
 addFigure("Leo VII","Pope","pope.png",936,939);
 addFigure("Stephen IX","Pope","pope.png",939,942);
 addFigure("Marinus II","Pope","pope.png",942,946);
-addFigure("Agapetus II","Pope","pope.png",946,955);
-addFigure("John XII","Pope","pope.png",955,963);
-addFigure("Leo VIII","Pope","pope.png",963,964);
-addFigure("Benedict V","Pope","pope.png",964,964);
+addFigure("Agapetus II","Pope","agapetusii.jpg",946,955);
+addFigure("John XII","Pope","johnxii.jpg",955,963);
+addFigure("Leo VIII","Pope","leoviii.jpg",963,964);
+addFigure("Benedict V","Pope","benedictv.jpg",964,964);
 addFigure("John XIII","Pope","pope.png",965,972);
 addFigure("Benedict VI","Pope","pope.png",973,974);
 addFigure("Benedict VII","Pope","pope.png",974,983);
 addFigure("John XIV","Pope","pope.png",983,984);
 addFigure("John XV","Pope","pope.png",985,996);
 addFigure("Gregory V","Pope","pope.png",996,999);
-addFigure("Sylvester II","Pope","pope.png",999,1003);
+addFigure("Sylvester II","Pope","sylvesterii.jpg",999,1003);
 addFigure("John XVII","Pope","pope.png",1003,1003);
 addFigure("John XVIII","Pope","pope.png",1003,1009);
 addFigure("Sergius IV","Pope","pope.png",1009,1012);
 addFigure("Benedict VIII","Pope","pope.png",1012,1024);
-addFigure("John XIX","Pope","pope.png",1024,1032);
+addFigure("John XIX","Pope","johnxix.jpg",1024,1032);
 addFigure("Benedict IX","Pope","pope.png",1032,1045);
 addFigure("Sylvester III","Pope","pope.png",1045,1045);
-addFigure("Benedict IX","Pope","pope.png",1045,1045);
+//addFigure("Benedict IX","Pope","pope.png",1045,1045);
 addFigure("Gregory VI","Pope","pope.png",1045,1046);
-addFigure("Clement II","Pope","pope.png",1046,1047);
+addFigure("Clement II","Pope","clementii.jpg",1046,1047);
 addFigure("Benedict IX","Pope","pope.png",1047,1048);
 addFigure("Damasus II","Pope","pope.png",1048,1048);
-addFigure("St. Leo IX","Pope","pope.png",1049,1054);
-addFigure("Victor II","Pope","pope.png",1055,1057);
+addFigure("St. Leo IX","Pope","leoix.jpg",1049,1054);
+addFigure("Victor II","Pope","victorii.jpg",1055,1057);
 addFigure("Stephen X","Pope","pope.png",1057,1058);
-addFigure("Nicholas II","Pope","pope.png",1058,1061);
+addFigure("Nicholas II","Pope","nicholasii.jpg",1058,1061);
 addFigure("Alexander II","Pope","pope.png",1061,1073);
-addFigure("St. Gregory VII","Pope","pope.png",1073,1085);
-addFigure("Blessed Victor III","Pope","pope.png",1086,1087);
-addFigure("Blessed Urban II","Pope","pope.png",1088,1099);
-addFigure("Paschal II","Pope","pope.png",1099,1118);
-addFigure("Gelasius II","Pope","pope.png",1118,1119);
-addFigure("Callistus II","Pope","pope.png",1119,1124);
-addFigure("Honorius II","Pope","pope.png",1124,1130);
-addFigure("Innocent II","Pope","pope.png",1130,1143);
-addFigure("Celestine II","Pope","pope.png",1143,1144);
+addFigure("St. Gregory VII","Pope","gregoryvii.jpg",1073,1085);
+addFigure("Victor III","Pope","victoriii.jpg",1086,1087);
+addFigure("Urban II","Pope","urbanii.png",1088,1099);
+addFigure("Paschal II","Pope","paschalii.jpg",1099,1118);
+addFigure("Gelasius II","Pope","gelasiusii.jpg",1118,1119);
+addFigure("Callistus II","Pope","callistusii.jpg",1119,1124);
+addFigure("Honorius II","Pope","honoriusii.jpg",1124,1130);
+addFigure("Innocent II","Pope","innocentii.jpg",1130,1143);
+addFigure("Celestine II","Pope","celestineii.jpg",1143,1144);
 addFigure("Lucius II","Pope","pope.png",1144,1145);
-addFigure("Blessed Eugene III","Pope","pope.png",1145,1153);
-addFigure("Anastasius IV","Pope","pope.png",1153,1154);
-addFigure("Adrian IV","Pope","pope.png",1154,1159);
-addFigure("Alexander III","Pope","pope.png",1159,1181);
-addFigure("Lucius III","Pope","pope.png",1181,1185);
-addFigure("Urban III","Pope","pope.png",1185,1187);
+addFigure("Eugene III","Pope","eugeneiii.jpg",1145,1153);
+addFigure("Anastasius IV","Pope","anastasiusiv.png",1153,1154);
+addFigure("Adrian IV","Pope","adrianiv.png",1154,1159);
+addFigure("Alexander III","Pope","alexanderiii.jpg",1159,1181);
+addFigure("Lucius III","Pope","luciusiii.jpg",1181,1185);
+addFigure("Urban III","Pope","urbaniii.jpg",1185,1187);
 addFigure("Gregory VIII","Pope","pope.png",1187,1187);
-addFigure("Clement III","Pope","pope.png",1187,1191);
-addFigure("Celestine III","Pope","pope.png",1191,1198);
-addFigure("Innocent III","Pope","pope.png",1198,1216);
-addFigure("Honorius III","Pope","pope.png",1216,1227);
-addFigure("Gregory IX","Pope","pope.png",1227,1241);
+addFigure("Clement III","Pope","clementiii.jpg",1187,1191);
+addFigure("Celestine III","Pope","celestineiii.png",1191,1198);
+addFigure("Innocent III","Pope","innocentiii.jpg",1198,1216);
+addFigure("Honorius III","Pope","honoriusiii.jpg",1216,1227);
+addFigure("Gregory IX","Pope","gregoryix.jpg",1227,1241);
 addFigure("Celestine IV","Pope","pope.png",1241,1241);
-addFigure("Innocent IV","Pope","pope.png",1243,1254);
+addFigure("Innocent IV","Pope","innocentiv.png",1243,1254);
 addFigure("Alexander IV","Pope","pope.png",1254,1261);
 addFigure("Urban IV","Pope","pope.png",1261,1264);
-addFigure("Clement IV","Pope","pope.png",1265,1268);
-addFigure("Blessed Gregory X","Pope","pope.png",1271,1276);
-addFigure("Blessed Innocent V","Pope","pope.png",1276,1276);
-addFigure("Adrian V","Pope","pope.png",1276,1276);
-addFigure("John XXI","Pope","pope.png",1276,1277);
-addFigure("Nicholas III","Pope","pope.png",1277,1280);
-addFigure("Martin IV","Pope","pope.png",1281,1285);
-addFigure("Honorius IV","Pope","pope.png",1285,1287);
-addFigure("Nicholas IV","Pope","pope.png",1288,1292);
-addFigure("St. Celestine V","Pope","pope.png",1294,1294);
-addFigure("Boniface VIII","Pope","pope.png",1294,1303);
+addFigure("Clement IV","Pope","clementiv.jpg",1265,1268);
+addFigure("Gregory X","Pope","gregoryx.jpg",1271,1276);
+addFigure("Innocent V","Pope","innocentv.jpg",1276,1276);
+addFigure("Adrian V","Pope","adrianv.jpg",1276,1276);
+addFigure("John XXI","Pope","johnxxi.png",1276,1277);
+addFigure("Nicholas III","Pope","nicholasiii.jpg",1277,1280);
+addFigure("Martin IV","Pope","martiniv.jpg",1281,1285);
+addFigure("Honorius IV","Pope","honoriusiv.jpg",1285,1287);
+addFigure("Nicholas IV","Pope","nicholasiv.jpg",1288,1292);
+addFigure("St. Celestine V","Pope","celestinev.jpg",1294,1294);
+addFigure("Boniface VIII","Pope","bonifaceviii.jpg",1294,1303);
+
+
 addFigure("Blessed Benedict XI","Pope","pope.png",1303,1304);
 addFigure("Clement V","Pope","pope.png",1305,1314);
 addFigure("John XXII","Pope","pope.png",1316,1334);
@@ -962,6 +992,50 @@ addFigure("George VI","King of Great Britain","georgevi.png",1936,1952);
 addFigure("Elizabeth II","Queen of Great Britain","elizabethii.jpg",1952,2022);
 addFigure("Charles III","King of Great Britain","charlesiii.jpg",2022,2050);
 
+
+addFigure("Hugh d'Avranches","Earl of Chester","hughdavranches.jpg",1071,1101);
+addFigure("Odo of Bayeux","Earl of Kent","odoofbayeux.jpg",1067,1082);
+addFigure("Waltheof","Earl of Northampton","waltheof.jpg",1072,1076);
+
+
+addFigure("Matilda","Queen of England","matilda.jpg",1066,1083);
+
+addFigure("Robert Curthose","Heir Apparent of Normandy","robertcurthose.png",1066,1087);
+addFigure("Robert Curthose","Duke of Normandy","robertcurthose.png",1087,1106);
+
+
+addFigure("Edgar Aetheling","Pretender to England","edgaraetheling.jpg",1067,1125);
+
+
+addFigure("Sweyn II","King of Denmark","sweynii.webp",1047,1076);
+addFigure("Harald III","King of Denmark","haraldiii.jpg",1076,1080);
+addFigure("Cnut IV","King of Denmark","cnutiv.jpg",1080,1086);
+addFigure("Ivar the Boneless","Viking Commander","viking.png",865,873);
+addFigure("Harald Bluetooth","King of Denmark","haraldbluetooth.png",958,986);
+addFigure("Sweyn Forkbeard","King of Denmark","sweynforkbeard.jpg",986,1014);
+addFigure("Cnut","King of Denmark","cnutthegreat.jpg",1018,1035);
+addFigure("Harthacnut","King of Denmark","harthacnut.jpg",1035,1042);
+
+
+
+addFigure("Philip I","King of France","philipi.png",1066,1108);
+addFigure("Louis VI","King of France","louisvi.png",1108,1137);
+addFigure("Louis VII","King of France","louisvii.jpg",1137,1180);
+addFigure("Philip II","King of France","philipii.png",1180,1223);
+addFigure("Louis VIII","King of France","louisviii.png",1223,1226);
+addFigure("St. Louis IX","King of France","louisix.jpg",1226,1270);
+addFigure("Philip III","King of France","philipiii.jpg",1270,1285);
+addFigure("Philip IV","King of France","philipiv.jpg",1285,1314);
+addFigure("Louis X","King of France","louisx.png",1314,1316);
+addFigure("John I","King of France","johnifrance.jpg",1316,1316);
+addFigure("Philip V","King of France","philipv.jpg",1316,1322);
+addFigure("Charles IV","King of France","charlesiv.jpg",1322,1328);
+addFigure("Philip VI","King of France","philipvi.jpg",1328,1350);
+addFigure("John II","King of France","johnii.jpg",1350,1364);
+addFigure("Charles V","King of France","charlesv.jpg",1364,1380);
+addFigure("Charles VI","King of France","charlesvi.jpg",1380,1422);
+addFigure("Charles VII","King of France","charlesvii.jpg",1422,1461);
+
     // Function to find the closest year at the top of the viewport
     function getCurrentYear() {
       let currentYear = null;
@@ -980,7 +1054,6 @@ addFigure("Charles III","King of Great Britain","charlesiii.jpg",2022,2050);
       return year < 0 ? `${Math.abs(year)} BC` : `${year} AD`;
     }
   
-    // Function to update the images based on the current year
     function updateImages(year) {
         const imageContainer = document.getElementById('image-container');
         imageContainer.innerHTML = ''; // Clear previous images
@@ -988,7 +1061,7 @@ addFigure("Charles III","King of Great Britain","charlesiii.jpg",2022,2050);
         if (figureData[year]) {
           figureData[year].forEach((figure) => {
             const img = document.createElement('img');
-            img.src = `images/${figure.image}`; // Assumes images are in an 'images' folder
+            img.src = `images/${figure.image}`;
             img.alt = figure.name;
       
             const nameElem = document.createElement('div');
@@ -1000,23 +1073,35 @@ addFigure("Charles III","King of Great Britain","charlesiii.jpg",2022,2050);
             titleElem.textContent = figure.title;
       
             const figureContainer = document.createElement('div');
-            figureContainer.classList.add('figure-container'); // To allow relative positioning for the red X
+            figureContainer.classList.add('figure-container');
             figureContainer.appendChild(img);
             figureContainer.appendChild(nameElem);
             figureContainer.appendChild(titleElem);
       
-            // Check if this figure is in their final year (year matches endDate)
-            if (parseInt(year) === figure.endDate) {
+            // Add overlays based on whether it's the start or end year
+            const isStartYear = parseInt(year) === figure.startDate;
+            const isEndYear = parseInt(year) === figure.endDate;
+      
+            if (isStartYear) {
+              const greenExclamation = document.createElement('div');
+              greenExclamation.classList.add('green-exclamation');
+              greenExclamation.textContent = '+';
+              figureContainer.appendChild(greenExclamation);
+            }
+      
+            if (isEndYear) {
               const redX = document.createElement('div');
               redX.classList.add('red-x');
-              redX.textContent = 'X';
-              figureContainer.appendChild(redX); // Add the red X to the bottom right corner
+              redX.textContent = '−';
+              figureContainer.appendChild(redX);
             }
       
             imageContainer.appendChild(figureContainer);
           });
         }
       }
+      
+      
       
   
     // Function to update the year label
