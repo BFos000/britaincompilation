@@ -47,7 +47,9 @@ addFigure("William I","King of the English","williami.jpg",1066,1087);
 addFigure("William II","King of the English","williamii.jpg",1087,1100);
 addFigure("Henry I","King of the English","henryi.jpg",1100,1135);
 addFigure("Stephen","King of the English","stephen.jpg",1135,1154);
-addFigure("Matilda","Claimant","matilda.jpg",1141,1141);
+addFigure("Matilda","Lady of the English","matilda2.png",1141,1148);
+//addFigure("Matilda","Claimant","matilda.jpg",1141,1141);
+addFigure("Henry FitzEmpress","Claimant to England","henryii.jpg",1148,1154);
 addFigure("Henry II","King of the English","henryii.jpg",1154,1189);
 addFigure("Richard I","King of the English","richardi.jpg",1189,1199);
 addFigure("John","King of England","john.jpg",1199,1216);
@@ -662,7 +664,7 @@ addFigure("Gruffydd","King of the Britons","welsh.png",1039,1063);
 //addFigure("Bleddyn","King of the Britons","welsh.png",1063,1075);
 addFigure("Rhys","King of the Britons","welsh.png",1079,1093);
 //addFigure("Gruffudd","King of all the Welsh","gruffudd.jpg",1136,1137);
-addFigure("Owain","King of Wales","owain.jpg",1137,1170);
+//addFigure("Owain","King of Wales","owain.jpg",1137,1170);
 addFigure("Geraint","King of Dumnonia","welsh.png",670,710);
 //addFigure("Cunedda","King of Gwynedd","cunedda.jpg",450,460);
 //addFigure("Einion","King of Gwynedd","welsh.png",470,480);
@@ -1086,22 +1088,109 @@ addFigure("Elizabeth II","Queen of Great Britain","elizabethii.jpg",1952,2022);
 addFigure("Charles III","King of Great Britain","charlesiii.jpg",2022,2050);
 
 
+addFigure("Aethelstan","Ealdorman of East Anglia","ealdorman.png",932,956);
+addFigure("Aethelwald","Ealdorman of East Anglia","ealdorman.png",956,962);
+addFigure("Aethelwine","Ealdorman of East Anglia","ealdorman.png",962,992);
+addFigure("Ulfcytel Snillingr","Ealdorman of East Anglia","ealdorman.png",1004,1016);
+addFigure("Thorkell the Tall","Earl of East Anglia","viking.png",1017,1021);
+addFigure("Osgod Clapa","Earl of East Anglia","viking.png",1026,1044);
+addFigure("Harold Godwinson","Earl of East Anglia","haroldii.jpg",1044,1051);
+addFigure("Aelfgar","Earl of East Anglia","aelfgar.png",1051,1052);
+addFigure("Harold Godwinson","Earl of East Anglia","haroldii.jpg",1052,1053);
+addFigure("Aelfgar","Earl of East Anglia","aelfgar.png",1053,1057);
+addFigure("Gyrth","Earl of East Anglia","gyrth.png",1057,1066);
+addFigure("Ralf de Gael","Earl of East Anglia","ralphdegael.png",1069,1075);
+
+addFigure("Godwin","Earl of Wessex","ealdorman.png",1018,1053);
+addFigure("Harold Godwinson","Earl of Wessex","haroldii.jpg",1053,1065);
+
+addFigure("Aelfhere","Ealdorman of Mercia","ealdorman.png",957,983);
+addFigure("Aelfric Cild","Ealdorman of Mercia","ealdorman.png",983,985);
+addFigure("Wulfric Spot","Ealdorman of Mercia","wulfricspot.jpg",986,1004);
+addFigure("Eadric Streona","Ealdorman of Mercia","ealdorman.png",1007,1017);
+addFigure("Leofwine","Ealdorman of Mercia","ealdorman.png",1017,1032);
+addFigure("Leofric","Earl of Mercia","leofric.png",1032,1057);
+//addFigure("Lady Godiva","Wife of Leofric","godiva.png",1043,1057);
+addFigure("Aelfgar","Earl of Mercia","aelfgar.png",1057,1062);
+addFigure("Eadwine","Earl of Mercia","ealdorman.png",1062,1071);
+
+addFigure("Aelfric","Earl of Hampshire","ealdorman.png",982,1016);
+addFigure("Sweyn Godwinson","Earl of Herefordshire","ealdorman.png",1043,1051);
+
+addFigure("Oslac","Ealdorman of Northumbria","ealdorman.png",963,975);
+addFigure("Thored","Earl of Northumbria","viking.png",979,992);
+addFigure("Aelfhelm","Ealdorman of Northumbria","ealdorman.png",994,1006);
+addFigure("Uhtred","Ealdorman of Northumbria","ealdorman.png",1006,1016);
+addFigure("Eirikr Hakonarson","Earl of Northumbria","viking.png",1016,1033);
+addFigure("Siward","Earl of Northumbria","viking.png",1033,1055);
+addFigure("Tostig Godwinson","Ealdorman of Northumbria","ealdorman.png",1055,1065);
+addFigure("Morcar","Earl of Northumbria","ealdorman.png",1065,1068);
+
+
+
 addFigure("Hugh d'Avranches","Earl of Chester","hughdavranches.jpg",1071,1101);
 addFigure("Odo of Bayeux","Earl of Kent","odoofbayeux.jpg",1067,1082);
 addFigure("Odo of Bayeux","Earl of Kent","odoofbayeux.jpg",1087,1088);
-addFigure("Waltheof","Earl of Northumbria","waltheof.jpg",1072,1076);
+addFigure("Waltheof","Earl of Northampton","waltheof.jpg",1065,1068);
+addFigure("Waltheof","Earl of Northumbria","waltheof.jpg",1069,1076);
 addFigure("Robert de Mowbray","Earl of Northumbria","robertdemowbray.png",1086,1095);
 
 
-addFigure("Matilda","Queen of England","matilda.jpg",1066,1083);
 
-addFigure("Robert Curthose","Heir Apparent of Normandy","robertcurthose.png",1066,1087);
+addFigure("Edgar Aetheling","Pretender to England","edgaraetheling.jpg",1067,1125);
+addFigure("William FitzOsbern","Earl of Hereford","normanearl.png",1067,1071);
+addFigure("Robert de Belleme","Earl of Shrewsbury","normanearl.png",1079,1112);
+//addFigure("Roger of Salisbury","Bishop of Salisbury","rogerofsalisbury.png",1102,1119); // not true end
+addFigure("William de Warenne","Earl of Surrey","normannoble.png",1088,1138);
+addFigure("William Adelin","Heir Apparent to England","williamadelin.jpg",1115,1120);
+addFigure("Richard d'Avranches","Earl of Chester","richarddavranches.png",1101,1120);
+addFigure("Theobald IV","Count of Blois","theobaldiv.jpg",1102,1152);
+addFigure("Stephen","Count of Mortain","stephen.jpg",1115,1135);
+addFigure("Fulk V","Count of Anjou","fulkv.jpg",1106,1129);
+addFigure("Geoffrey V","Count of Anjou","geoffreyv.jpg",1129,1151);
+addFigure("Robert of Caen","Earl of Gloucester","robertofcaen.jpg",1121,1147);
+
+addFigure("Ralph Flambard","Chief Justiciar in England","normannoble.png",1088,1100);
+addFigure("Roger of Salisbury","Chief Justiciar in England","rogerofsalisbury.png",1120,1139);
+addFigure("Hugh Bigod","Royal Steward in England","normannoble.png",1120,1157);
+addFigure("William Martel","Royal Steward in England","normannoble.png",1130,1153);
+addFigure("Geoffrey de Mandeville","Earl of Essex","normanearl.png",1129,1144);
+addFigure("Ranulf de Gernon","Earl of Chester","normanearl.png",1128,1153);
+
+addFigure("Waleran de Beaumont","Count of Meulan","walerandebeaumont.jpg",1120,1151);
+
+
+
+addFigure("Matilda","Heir Apparent to England","matilda2.png",1127,1135);
+addFigure("Matilda","Claimant to England","matilda2.png",1135,1141);
+
+
+addFigure("Matilda of Flanders","Queen Consort of England","matilda.jpg",1066,1083);
+addFigure("Emma of Normandy","Queen Consort of England","emmaofnormandy.jpg",1002,1013);
+addFigure("Emma of Normandy","Queen Consort of England","emmaofnormandy.jpg",1017,1035);
+addFigure("Emma of Normandy","Queen Mother of Denmark","emmaofnormandy.jpg",1036,1039);
+addFigure("Emma of Normandy","Queen Mother of England","emmaofnormandy.jpg",1040,1052);
+addFigure("Matilda of Scotland","Queen Consort of England","matilda3.jpg",1100,1118);
+
+
+
+addFigure("Rollo","Duke of Normandy","rollo.jpg",911,928);
+addFigure("William Longsword","Duke of Normandy","williaminormandy.png",927,942);
+addFigure("Richard I","Duke of Normandy","richardinormandy.png",942,996);
+addFigure("Richard II","Duke of Normandy","richardiinormandy.png",996,1026);
+addFigure("Richard III","Duke of Normandy","richardiiinormandy.png",1026,1027);
+addFigure("Robert I","Duke of Normandy","robertinormandy.png",1027,1035);
+addFigure("William II","Duke of Normandy","williami.jpg",1036,1066);
+addFigure("Henry","Count of the Cotentin","henryi.jpg",1088,1091);
+addFigure("William Clito","Claimant of Normandy","williamclito.jpg",1106,1128);
+
+
+addFigure("Robert Curthose","Heir Apparent to Normandy","robertcurthose.png",1066,1087);
 addFigure("Robert Curthose","Duke of Normandy","robertcurthose.png",1087,1106);
 
 
-addFigure("Edgar Aetheling","Pretender to England","edgaraetheling.jpg",1067,1125);
 
-
+addFigure("Harald Hadrada","King of Norway","haraldhadrada.png",1047,1066);
 addFigure("Sweyn II","King of Denmark","sweynii.webp",1047,1076);
 addFigure("Harald III","King of Denmark","haraldiii.jpg",1076,1080);
 addFigure("Cnut IV","King of Denmark","cnutiv.jpg",1080,1086);
@@ -1110,13 +1199,16 @@ addFigure("Harald Bluetooth","King of Denmark","haraldbluetooth.png",958,986);
 addFigure("Sweyn Forkbeard","King of Denmark","sweynforkbeard.jpg",986,1014);
 addFigure("Cnut","King of Denmark","cnutthegreat.jpg",1018,1035);
 addFigure("Harthacnut","King of Denmark","harthacnut.jpg",1035,1042);
-addFigure("Henry","Count of the Cotentin","henryi.jpg",1088,1091);
-addFigure("Ralph Flambard","Chaplain of William II","normannoble.png",1088,1100);
-addFigure("Robert de Belleme","Earl of Shrewsbury","normanearl.png",1079,1112);
 
 
 
-addFigure("Philip I","King of France","philipi.png",1066,1108);
+addFigure("Charles VII","King of the","charlesvii.jpg",1422,1461);
+
+
+addFigure("Hugh Capet","King of France","hughcapet.png",987,996);
+addFigure("Robert II","King of France","robertii.png",996,1031);
+addFigure("Henry I","King of France","henryi.png",1031,1060);
+addFigure("Philip I","King of France","philipi.png",1060,1108);
 addFigure("Louis VI","King of France","louisvi.png",1108,1137);
 addFigure("Louis VII","King of France","louisvii.jpg",1137,1180);
 addFigure("Philip II","King of France","philipii.png",1180,1223);
@@ -1133,6 +1225,63 @@ addFigure("John II","King of France","johnii.jpg",1350,1364);
 addFigure("Charles V","King of France","charlesv.jpg",1364,1380);
 addFigure("Charles VI","King of France","charlesvi.jpg",1380,1422);
 addFigure("Charles VII","King of France","charlesvii.jpg",1422,1461);
+
+
+addFigure("Clovis I","King of the Franks","clovis.png",509,511);
+addFigure("Chlothar I","King of the Franks","chlothari.png",558,561);
+addFigure("Dagobert I","King of the Franks","dagoberti.png",632,634);
+addFigure("Chlothar III","King of the Franks","chlothariii.png",662,663);
+addFigure("Childeric II","King of the Franks","childericii.png",673,675);
+addFigure("Theuderic III","King of the Franks","theudericiii.jpg",679,691);
+addFigure("Clovis IV","King of the Franks","frankishking.png",691,695);
+addFigure("Childebert IV","King of the Franks","childerbertiii.jpg",695,711);
+addFigure("Dagobert III","King of the Franks","dagobertiii.jpg",711,715);
+addFigure("Chilperic II","King of the Franks","chilpericii.png",715,721);
+addFigure("Theuderic IV","King of the Franks","frankishking.png",721,737);
+addFigure("Charles Martel","Regent of the Franks","charlesmartel.png",737,741);
+addFigure("Childeric III","King of the Franks","childericiii.jpg",743,751);
+addFigure("Pepin","King of the Franks","pepin.png",751,768);
+addFigure("Charlemagne","King of the Franks","charlemagne.avif",771,800);
+addFigure("Charlemagne","Holy Roman Emperor","charlemagne.avif",800,814);
+addFigure("Louis I","Holy Roman Emperor","louisi.png",813,840);
+addFigure("Lothair I","Holy Roman Emperor","lothairi.jpg",840,855);
+addFigure("Louis II","Holy Roman Emperor","louisii.png",855,875);
+addFigure("Charles II","Holy Roman Emperor","charlesiihre.jpg",875,877);
+addFigure("Charles III","Holy Roman Emperor","charlesthefat.jpg",881,888);
+addFigure("Guy","Holy Roman Emperor","guy.jpg",891,894);
+addFigure("Lambert","Holy Roman Emperor","lambert.jpg",892,898);
+addFigure("Arnulf","Holy Roman Emperor","arnulf.jpg",896,899);
+addFigure("Louis III","Holy Roman Emperor","louisiiihre.png",901,905);
+addFigure("Berengar","Holy Roman Emperor","berengar.jpg",915,924);
+addFigure("Otto I","Holy Roman Emperor","ottoi.jpg",962,973);
+addFigure("Otto II","Holy Roman Emperor","ottoii.jpg",967,983);
+addFigure("Otto III","Holy Roman Emperor","ottoiii.jpg",996,1002);
+addFigure("Henry II","Holy Roman Emperor","henryiihre.jpg",1014,1024);
+addFigure("Conrad II","Holy Roman Emperor","conradii.png",1027,1039);
+addFigure("Henry III","Holy Roman Emperor","henryiiihre.jpg",1046,1056);
+addFigure("Henry IV","Holy Roman Emperor","henryivhre.jpg",1084,1106);
+addFigure("Henry V","Holy Roman Emperor","henryvhre.jpg",1107,1125);
+addFigure("Lothair II","Holy Roman Emperor","lothairii.jpg",1133,1137);
+addFigure("Frederick I","Holy Roman Emperor","fredericki.jpg",1138,1190);
+addFigure("Henry VI","Holy Roman Emperor","henryvihre.jpg",1191,1197);
+addFigure("Otto IV","Holy Roman Emperor","ottoiv.jpg",1209,1215);
+addFigure("Frederick II","Holy Roman Emperor","frederickii.jpg",1220,1250);
+addFigure("Henry VII","Holy Roman Emperor","henryviihre.jpg",1312,1313);
+addFigure("Louis IV","Holy Roman Emperor","louisivhre.jpg",1328,1347);
+addFigure("Charles IV","Holy Roman Emperor","charlesivhre.jpg",1355,1378);
+addFigure("Sigismund","Holy Roman Emperor","sigismund.jpg",1433,1437);
+addFigure("Frederick III","Holy Roman Emperor","frederickiii.png",1452,1493);
+addFigure("Maximilian I","Holy Roman Emperor","maximiliani.png",1508,1519);
+addFigure("Charles V","Holy Roman Emperor","charlesvhre.jpg",1519,1556);
+addFigure("Ferdinand I","Holy Roman Emperor","ferdinandi.png",1556,1564);
+addFigure("Maximilian II","Holy Roman Emperor","maximilianii.jpg",1564,1576);
+addFigure("Rudolf II","Holy Roman Emperor","rudolfii.png",1576,1612);
+addFigure("Matthias","Holy Roman Emperor","matthias.png",1612,1619);
+addFigure("Ferdinand II","Holy Roman Emperor","ferdinandii.jpg",1619,1637);
+addFigure("Ferdinand III","Holy Roman Emperor","ferdinandiii.jpg",1637,1657);
+addFigure("Leopold I","Holy Roman Emperor","leopoldi.png",1658,1705);
+
+addFigure("Matilda","Holy Roman Empress Consort","matilda2.png",1110,1125);
 
     // Function to find the closest year at the top of the viewport
     function getCurrentYear() {
@@ -1241,10 +1390,32 @@ addFigure("Charles VII","King of France","charlesvii.jpg",1422,1461);
     });
   
     // Initial check to display the correct year and images when the page loads
-    const initialYear = getCurrentYear();
+    const initialYear = 2024;
     if (initialYear) {
       updateImages(initialYear);
       updateYearLabel(initialYear);
     }
+
+
+  // Set up Intersection Observer to observe each year element
+  const observerOptions = {
+    root: rightPanel, // Observe within the scrollable right panel
+    rootMargin: '-20% 0px -80% 0px', // Trigger when the element is 20% down from the top of the viewport
+    threshold: 0 // Trigger as soon as any part of the element meets the 20% threshold
+  };
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        const year = entry.target.getAttribute('data-year');
+        updateYearLabel(year);
+        updateImages(year);
+      }
+    });
+  }, observerOptions);
+
+  // Observe each year element
+  yearElements.forEach((yearElement) => {
+    observer.observe(yearElement);
   });
-  
+});
